@@ -38,7 +38,7 @@ export default class Login extends React.Component {
       
       <div className="boxed-view">
       <div className="boxed-view__box">
-        <h1>Short Link</h1>
+        <h1>Short Link Login</h1>
         
         {this.state.error ? <p>{this.state.error}</p> : undefined}
         
